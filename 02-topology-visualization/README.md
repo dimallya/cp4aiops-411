@@ -68,4 +68,6 @@ Click **Configure, schedule, and manage observer jobs**. The Observer jobs page 
 Here, you can add a new job, or view, search for, or sort existing jobs by job name, observer name, job status or job type.  
 
 **2. Create Load job with required parameters**
+
 Provide required [parameters](https://www.ibm.com/docs/en/cloud-paks/cloud-pak-aiops/4.10.1?topic=jobs-kubernetes-observer#load-job-parameters) for Load job and click on **Run job**
+
