@@ -74,3 +74,11 @@ Here, you can add a new job, or view, search for, or sort existing jobs by job n
 Provide required [parameters](https://www.ibm.com/docs/en/cloud-paks/cloud-pak-aiops/4.10.1?topic=jobs-kubernetes-observer#load-job-parameters) for Load job and click on **Run job**
 
 
+
+## Defining Application ##
+
+1. For creation of various Resource/Topology Group Templates follow the steps provided in [Lab](https://ibm.github.io/waiops-tech-jam/labs/cloud-pak-aiops/topology-lab/topology-templates/)
+
+2. For creation application topology from resource groups follow the steps provided in [Lab](https://ibm.github.io/waiops-tech-jam/labs/cloud-pak-aiops/topology-lab/topology-applications/)
+
+
