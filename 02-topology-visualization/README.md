@@ -57,6 +57,8 @@ Where 'asm-k8s-account' is a service account. This is the only step required for
 **5. Ensure kubeconfig.yml file is in the correct format for load job**
 Follow the instructions in this section: https://www.ibm.com/docs/en/cloud-paks/cloud-pak-aiops/4.10.1?topic=jobs-kubernetes-observer#kubernetes-observer-kubeconfig-load-job-prerequisites
 
+
+
 ### Procedure ###
 
 **1. Accessing the Observer Configuration UI**
@@ -70,4 +72,5 @@ Here, you can add a new job, or view, search for, or sort existing jobs by job n
 **2. Create Load job with required parameters**
 
 Provide required [parameters](https://www.ibm.com/docs/en/cloud-paks/cloud-pak-aiops/4.10.1?topic=jobs-kubernetes-observer#load-job-parameters) for Load job and click on **Run job**
+
 
