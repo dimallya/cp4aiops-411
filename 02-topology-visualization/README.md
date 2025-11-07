@@ -52,10 +52,7 @@ Important: The service account and the cluster role binding need to be created i
 **4. Obtain the Kubernetes service account token**
 ```oc create token asm-k8s-account```
 
-Where 'asm-k8s-account' is a service account. This is the only step required for Kubernetes on OpenShift Version 4.16 (and later).
-
-**5. Ensure kubeconfig.yml file is in the correct format for load job**
-Follow the instructions in this section: https://www.ibm.com/docs/en/cloud-paks/cloud-pak-aiops/4.10.1?topic=jobs-kubernetes-observer#kubernetes-observer-kubeconfig-load-job-prerequisites
+Where 'asm-k8s-account' is a service account. This is the only step required for Kubernetes on OpenShift Version 4.16 (and later). This token value has to be noted. This will be used while configuring the K8s load job.
 
 
 
@@ -80,5 +77,6 @@ Provide required [parameters](https://www.ibm.com/docs/en/cloud-paks/cloud-pak-a
 1. For creation of various Resource/Topology Group Templates follow the steps provided in [Lab](https://ibm.github.io/waiops-tech-jam/labs/cloud-pak-aiops/topology-lab/topology-templates/)
 
 2. For creation application topology from resource groups follow the steps provided in [Lab](https://ibm.github.io/waiops-tech-jam/labs/cloud-pak-aiops/topology-lab/topology-applications/)
+
 
 
